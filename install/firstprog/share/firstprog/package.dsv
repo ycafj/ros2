@@ -1,0 +1,8 @@
+source;share/firstprog/hook/cmake_prefix_path.ps1
+source;share/firstprog/hook/cmake_prefix_path.dsv
+source;share/firstprog/hook/cmake_prefix_path.sh
+source;share/firstprog/local_setup.bash
+source;share/firstprog/local_setup.dsv
+source;share/firstprog/local_setup.ps1
+source;share/firstprog/local_setup.sh
+source;share/firstprog/local_setup.zsh
