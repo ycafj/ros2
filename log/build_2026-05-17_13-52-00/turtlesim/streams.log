@@ -1,0 +1,381 @@
+[0.008s] Invoking command in '/home/yura/firstprogram/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/turtlesim -- -j12 -l12
+[0.049s] [  1%] Built target turtlesim__rosidl_generator_type_description
+[0.051s] [  2%] Built target turtlesim__rs
+[0.062s] [  2%] Built target ament_cmake_python_copy_turtlesim
+[0.069s] [  2%] Built target turtlesim__cpp
+[0.077s] [ 25%] Built target turtlesim__rosidl_generator_c
+[0.094s] [ 34%] Built target turtlesim__rosidl_typesupport_c
+[0.099s] [ 46%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.099s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.102s] [ 60%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.105s] [ 68%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.106s] [ 76%] Built target turtlesim__rosidl_typesupport_cpp
+[0.122s] [ 76%] Built target turtlesim
+[0.129s] [ 78%] Built target turtle_teleop_key
+[0.132s] [ 81%] Built target draw_square
+[0.132s] [ 81%] Built target mimic
+[0.133s] [ 82%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.140s] [ 83%] Built target turtlesim__py
+[0.166s] [ 90%] Built target turtlesim__rosidl_generator_py
+[0.188s] [ 95%] Built target turtlesim_s__rosidl_typesupport_fastrtps_c
+[0.189s] [ 96%] Built target turtlesim_s__rosidl_typesupport_c
+[0.189s] [ 96%] Built target turtlesim_s__rosidl_typesupport_introspection_c
+[0.238s] running egg_info
+[0.250s] writing turtlesim.egg-info/PKG-INFO
+[0.250s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.250s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.284s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.285s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.306s] [ 96%] Built target ament_cmake_python_build_turtlesim_egg
+[6.326s] [ 96%] [32m[1mLinking CXX executable turtlesim_node[0m
+[7.457s] [100%] Built target turtlesim_node
+[7.466s] Invoked command in '/home/yura/firstprogram/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/turtlesim -- -j12 -l12
+[7.467s] Invoking command in '/home/yura/firstprogram/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/turtlesim
+[7.473s] -- Install configuration: ""
+[7.473s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[7.474s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/action/RotateAbsolute.json
+[7.474s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Color.json
+[7.474s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Pose.json
+[7.474s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Kill.json
+[7.474s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/SetPen.json
+[7.474s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Spawn.json
+[7.474s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.json
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportRelative.json
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__description.c
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[7.475s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__description.c
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[7.476s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__description.c
+[7.477s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__description.c
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__description.c
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[7.478s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__description.c
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__description.c
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[7.479s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__description.c
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/library_path.sh
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[7.480s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp
+[7.481s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[7.482s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[7.483s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[7.484s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info
+[7.485s] -- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/PKG-INFO
+[7.485s] -- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/dependency_links.txt
+[7.485s] -- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/SOURCES.txt
+[7.485s] -- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/top_level.txt
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose.py
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color.py
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color_s.c
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/__init__.py
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose_s.c
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/__init__.py
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so
+[7.485s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen_s.c
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative_s.c
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn_s.c
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/__init__.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill_s.c
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute_s.c
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/__init__.py
+[7.486s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute_s.c
+[7.503s] Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim'...
+[7.503s] Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action'...
+[7.503s] Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg'...
+[7.503s] Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv'...
+[7.506s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so
+[7.506s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so
+[7.506s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/rust_packages/turtlesim
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/Cargo.toml
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/msg.rs
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/msg
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/msg/rmw.rs
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/srv.rs
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/action.rs
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/srv
+[7.507s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/srv/rmw.rs
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/action
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/action/rmw.rs
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/lib.rs
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/build.rs
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Color.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Pose.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Kill.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[7.508s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Color.msg
+[7.509s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Pose.msg
+[7.509s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Kill.srv
+[7.509s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[7.509s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[7.509s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[7.509s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[7.509s] -- Installing: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/turtlesim_node
+[7.512s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[7.512s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[7.512s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/draw_square
+[7.512s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/mimic
+[7.512s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images
+[7.512s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/jazzy.png
+[7.512s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/galactic.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/rolling.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/bouncy.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/humble.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/dashing.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/iron.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/ardent.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/foxy.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/eloquent.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/crystal.png
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/launch
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[7.513s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/path.sh
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/path.dsv
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.bash
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.sh
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.zsh
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.dsv
+[7.514s] -- Installing: /home/yura/firstprogram/install/turtlesim/share/turtlesim/package.dsv
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[7.514s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[7.515s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.516s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[7.517s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[7.517s] -- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/package.xml
+[7.518s] Invoked command in '/home/yura/firstprogram/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/turtlesim

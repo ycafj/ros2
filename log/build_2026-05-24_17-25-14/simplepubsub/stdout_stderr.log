@@ -1,0 +1,20 @@
+[ 50%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/talker
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/listener
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/package_run_dependencies/simplepubsub
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/parent_prefix_path/simplepubsub
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/path.sh
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/path.dsv
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.bash
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.sh
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.zsh
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.dsv
+-- Installing: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/package.dsv
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/packages/simplepubsub
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/cmake/simplepubsubConfig.cmake
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/cmake/simplepubsubConfig-version.cmake
+-- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/package.xml

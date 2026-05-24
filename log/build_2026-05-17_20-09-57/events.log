@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000187] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000220] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000243] (-) JobUnselected: {'identifier': 'firstprog'}
+[0.000261] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000279] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000300] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.005462] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.006526] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.006549] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yura/firstprogram/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/yura/firstprogram/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yura', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib:/home/yura/firstprogram/install/turtlesim/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yura', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/yura/firstprogram/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2038', 'SYSTEMD_EXEC_PID': '2483', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/yura/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '12660', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yura/firstprogram/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yura', 'JOURNAL_STREAM': '9:24720', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yura', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/yura/miniconda3/condabin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Aspire-A315-59:@/tmp/.ICE-unix/2266,unix/Aspire-A315-59:/tmp/.ICE-unix/2266', 'INVOCATION_ID': 'a041f70d0f674203b584cbd9c3c4ae47', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SS05O3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '14', 'AMENT_PREFIX_PATH': '/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/yura/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:55d3b264-9125-40df-bf3b-f1b0628bbf52', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yura/firstprogram/build/tutorial_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.029010] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099704] (-) TimerEvent: {}
+[0.105441] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.121910] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.127434] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.134485] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.142651] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.167783] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.174112] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.176239] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.199897] (-) TimerEvent: {}
+[0.216375] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.218254] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.279194] (tutorial_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.292571] (tutorial_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.299998] (-) TimerEvent: {}
+[0.309965] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.355056] (tutorial_interfaces) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.400211] (-) TimerEvent: {}
+[0.489695] (tutorial_interfaces) StderrLine: {'line': b"Error parsing '/home/yura/firstprogram/src/tutorial_interfaces/package.xml':\n"}
+[0.500420] (-) TimerEvent: {}
+[0.600736] (-) TimerEvent: {}
+[0.701105] (-) TimerEvent: {}
+[0.801473] (-) TimerEvent: {}
+[0.901961] (-) TimerEvent: {}
+[1.002282] (-) TimerEvent: {}
+[1.102597] (-) TimerEvent: {}
+[1.202805] (-) TimerEvent: {}
+[1.303120] (-) TimerEvent: {}
+[1.403434] (-) TimerEvent: {}
+[1.503742] (-) TimerEvent: {}
+[1.603952] (-) TimerEvent: {}
+[1.704263] (-) TimerEvent: {}
+[1.804565] (-) TimerEvent: {}
+[1.904776] (-) TimerEvent: {}
+[2.005078] (-) TimerEvent: {}
+[2.105380] (-) TimerEvent: {}
+[2.205695] (-) TimerEvent: {}
+[2.283961] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.284140] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[2.284225] (tutorial_interfaces) StderrLine: {'line': b'    main()\n'}
+[2.284304] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[2.284461] (tutorial_interfaces) StderrLine: {'line': b'    raise e\n'}
+[2.284582] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.284679] (tutorial_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[2.284756] (tutorial_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.284830] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[2.284913] (tutorial_interfaces) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[2.284991] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[2.285081] (tutorial_interfaces) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[2.285158] (tutorial_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/yura/firstprogram/src/tutorial_interfaces/package.xml':\n"}
+[2.285232] (tutorial_interfaces) StderrLine: {'line': b'The package "tutorial_interfaces" must not "build_depend" on a package with the same name as this package\n'}
+[2.285305] (tutorial_interfaces) StderrLine: {'line': b'The package "tutorial_interfaces" must not "build_export_depend" on a package with the same name as this package\n'}
+[2.285379] (tutorial_interfaces) StderrLine: {'line': b'The package "tutorial_interfaces" must not "exec_depend" on a package with the same name as this package\n'}
+[2.305811] (-) TimerEvent: {}
+[2.312537] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.312718] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[2.312813] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.312998] (tutorial_interfaces) StderrLine: {'line': b'  /home/yura/firstprogram/src/tutorial_interfaces/package.xml\n'}
+[2.313081] (tutorial_interfaces) StderrLine: {'line': b'  /home/yura/firstprogram/build/tutorial_interfaces/ament_cmake_core/package.cmake)\n'}
+[2.313155] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[2.313228] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.313299] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.313371] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[2.313441] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[2.313512] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[2.313583] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.313666] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.318510] (tutorial_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:1369: cmake_check_build_system] Error 1\n'}
+[2.319900] (tutorial_interfaces) CommandEnded: {'returncode': 2}
+[2.320193] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 2}
+[2.330244] (-) EventReactorShutdown: {}

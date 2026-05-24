@@ -1,0 +1,23 @@
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:12:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   12 |   rclcpp::Service<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr service =
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Krcl_interfaces[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:12:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 | es::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr service =
+      |                    [01;31m[K^[m[K
+
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:12:67:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kservice[m[K’
+   12 | dTwoInts>::SharedPtr [01;31m[Kservice[m[K =
+      |                      [01;31m[K^~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sum.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

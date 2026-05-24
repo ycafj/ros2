@@ -1,0 +1,96 @@
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:31:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+   31 |   rclcpp::Client<[01;31m[Kturtlesim[m[K::srv::TeleportAbsolute>::SharedPtr client_;
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:31:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |   rclcpp::Client<turtlesim::srv::TeleportAbsolute[01;31m[K>[m[K::SharedPtr client_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:31:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   31 |   rclcpp::Client<turtlesim::srv::TeleportAbsolute>::[01;31m[KSharedPtr[m[K client_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:31:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+   31 |   rclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr [01;31m[Kclient_[m[K;
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:[m[K In constructor ‘[01m[KSubscriber::[01;32m[KSubscriber[m[K()[m[K’:
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   15 |     [01;31m[Kclient_[m[K = this->create_client<turtlesim::srv::TeleportAbsolute>("/turtle1/teleport_absolute");
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:15:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+   15 |     client_ = this->create_client<[01;31m[Kturtlesim[m[K::srv::TeleportAbsolute>("/turtle1/teleport_absolute");
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:15:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |     client_ = this->[01;31m[Kcreate_client<turtlesim::srv::TeleportAbsolute>[m[K("/turtle1/teleport_absolute");
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:15:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSubscriber::create_client<<expression error> >(const char [27])[m[K’
+   15 |     client_ = [01;31m[Kthis->create_client<turtlesim::srv::TeleportAbsolute>("/turtle1/teleport_absolute")[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  271 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  285 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:15:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |     client_ = [01;31m[Kthis->create_client<turtlesim::srv::TeleportAbsolute>("/turtle1/teleport_absolute")[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:19:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   19 |     auto request = std::[01;31m[Kmake_shared<turtlesim::srv::TeleportAbsolute::Request>[m[K();
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:19:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<turtlesim>()[m[K’
+   19 |     auto request = [01;31m[Kstd::make_shared<turtlesim::srv::TeleportAbsolute::Request>()[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:2[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:20:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   20 |     request->x = [01;31m[Kmsg[m[K.coord[0];
+      |                  [01;31m[K^~~[m[K
+[01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:20:18:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:157[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:268[m[K:
+[01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:35:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+   35 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K:
+[01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/coord.hpp:7[m[K,
+                 from [01m[K/home/yura/firstprogram/src/simplepubsub/src/subscriber.cpp:5[m[K:
+[01m[K/home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktutorial_interfaces::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

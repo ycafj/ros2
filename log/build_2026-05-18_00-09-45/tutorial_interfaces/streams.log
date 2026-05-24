@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/yura/firstprogram/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/tutorial_interfaces -- -j12 -l12
+[0.028s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.105s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.122s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.127s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.167s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.174s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.175s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.175s]   rosidl_generate_interfaces() the passed file 'msg/Coord.msg' doesn't exist
+[0.175s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.175s]   '/home/yura/firstprogram/src/tutorial_interfaces'
+[0.175s] Call Stack (most recent call first):
+[0.175s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.175s] 
+[0.176s] [0m
+[0.176s] -- Configuring incomplete, errors occurred!
+[0.179s] gmake: *** [Makefile:1369: cmake_check_build_system] Error 1
+[0.180s] Invoked command in '/home/yura/firstprogram/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/tutorial_interfaces -- -j12 -l12

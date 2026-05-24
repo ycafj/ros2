@@ -1,0 +1,53 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:1[m[K:
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:9:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+    9 |   [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:9:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Ready to add two ints.")[m[K’, which is of non-class type ‘[01m[Kconst char [23][m[K’
+    9 |   [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:9:3:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Ready to add two ints.")[m[K’, which is of non-class type ‘[01m[Kconst char [23][m[K’
+    9 |   [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:9:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+    9 |   [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:6:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    6 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/sum.cpp:6:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    6 | nt main(int argc, [01;35m[Kchar **argv[m[K)
+      |                   [01;35m[K~~~~~~~^~~~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:1[m[K:
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:11:2:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+   11 |  [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:11:2:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Ready to add two ints.")[m[K’, which is of non-class type ‘[01m[Kconst char [23][m[K’
+   11 |  [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:11:2:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Ready to add two ints.")[m[K’, which is of non-class type ‘[01m[Kconst char [23][m[K’
+   11 |  [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:11:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   11 |  [01;31m[KRCLCPP_INFO[m[K( "Ready to add two ints.");
+      |  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:9:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_srvcli/src/client.cpp:9:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/sum.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

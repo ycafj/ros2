@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/yura/firstprogram/build/simplepubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yura/firstprogram/src/simplepubsub -DCMAKE_INSTALL_PREFIX=/home/yura/firstprogram/install/simplepubsub
+[0.078s] -- The C compiler identification is GNU 13.3.0
+[0.125s] -- The CXX compiler identification is GNU 13.3.0
+[0.142s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.234s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.330s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.503s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.531s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.540s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.609s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.611s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.682s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.696s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.717s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.763s] -- Found tutorial_interfaces: 0.0.0 (/home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.801s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.876s] -- Configured cppcheck include dirs: 
+[0.876s] -- Configured cppcheck exclude dirs and/or files: 
+[0.877s] -- Added test 'lint_cmake' to check CMake code style
+[0.877s] -- Added test 'uncrustify' to check C / C++ code style
+[0.877s] -- Configured uncrustify additional arguments: 
+[0.878s] -- Added test 'xmllint' to check XML markup files
+[0.879s] -- Configuring done (0.9s)
+[0.881s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.881s]   Cannot find source file:
+[0.881s] 
+[0.881s]     src/subscriber.cpp
+[0.881s] 
+[0.881s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.881s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.881s]   .f95 .f03 .hip .ispc
+[0.881s] 
+[0.881s] [0m
+[0.882s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.882s]   No SOURCES given to target: listener
+[0.882s] 
+[0.882s] [0m
+[0.882s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.889s] Invoked command in '/home/yura/firstprogram/build/simplepubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yura/firstprogram/src/simplepubsub -DCMAKE_INSTALL_PREFIX=/home/yura/firstprogram/install/simplepubsub

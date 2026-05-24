@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/yura/firstprogram/build/simplepubsub': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/simplepubsub -- -j12 -l12
+[0.029s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.209s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.269s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.319s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.365s] -- Found turtlesim: 1.8.3 (/home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake)
+[0.397s] -- Found tutorial_interfaces: 0.0.0 (/home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.432s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.491s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.491s] -- Configured cppcheck include dirs: 
+[0.491s] -- Configured cppcheck exclude dirs and/or files: 
+[0.491s] -- Added test 'lint_cmake' to check CMake code style
+[0.491s] -- Added test 'uncrustify' to check C / C++ code style
+[0.492s] -- Configured uncrustify additional arguments: 
+[0.492s] -- Added test 'xmllint' to check XML markup files
+[0.492s] -- Configuring done (0.5s)
+[0.502s] -- Generating done (0.0s)
+[0.505s] -- Build files have been written to: /home/yura/firstprogram/build/simplepubsub
+[0.537s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[0.537s] [ 75%] Built target talker
+[5.052s] [100%] [32m[1mLinking CXX executable listener[0m
+[5.256s] [100%] Built target listener
+[5.264s] Invoked command in '/home/yura/firstprogram/build/simplepubsub' returned '0': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/simplepubsub -- -j12 -l12
+[5.264s] Invoking command in '/home/yura/firstprogram/build/simplepubsub': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/simplepubsub
+[5.272s] -- Install configuration: ""
+[5.272s] -- Installing: /home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/talker
+[5.272s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/talker" to ""
+[5.272s] -- Installing: /home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/listener
+[5.275s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/listener" to ""
+[5.275s] -- Installing: /home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/package_run_dependencies/simplepubsub
+[5.275s] -- Installing: /home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/parent_prefix_path/simplepubsub
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/ament_prefix_path.sh
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/ament_prefix_path.dsv
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/path.sh
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/path.dsv
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.bash
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.sh
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.zsh
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.dsv
+[5.275s] -- Installing: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/package.dsv
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/packages/simplepubsub
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/cmake/simplepubsubConfig.cmake
+[5.275s] -- Up-to-date: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/cmake/simplepubsubConfig-version.cmake
+[5.275s] -- Installing: /home/yura/firstprogram/install/simplepubsub/share/simplepubsub/package.xml
+[5.277s] Invoked command in '/home/yura/firstprogram/build/simplepubsub' returned '0': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/simplepubsub

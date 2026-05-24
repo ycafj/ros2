@@ -1,0 +1,47 @@
+[0.013s] Invoking command in '/home/yura/firstprogram/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yura/firstprogram/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/yura/firstprogram/install/cpp_pubsub
+[0.076s] -- The C compiler identification is GNU 13.3.0
+[0.125s] -- The CXX compiler identification is GNU 13.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.224s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.440s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.533s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.610s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.610s] -- Configured cppcheck include dirs: 
+[0.610s] -- Configured cppcheck exclude dirs and/or files: 
+[0.611s] -- Added test 'lint_cmake' to check CMake code style
+[0.612s] -- Added test 'uncrustify' to check C / C++ code style
+[0.612s] -- Configured uncrustify additional arguments: 
+[0.612s] -- Added test 'xmllint' to check XML markup files
+[0.614s] -- Configuring done (0.6s)
+[0.615s] -- Generating done (0.0s)
+[0.616s] -- Build files have been written to: /home/yura/firstprogram/build/cpp_pubsub
+[0.620s] Invoked command in '/home/yura/firstprogram/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yura/firstprogram/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/yura/firstprogram/install/cpp_pubsub
+[0.621s] Invoking command in '/home/yura/firstprogram/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_pubsub -- -j12 -l12
+[0.652s] Invoked command in '/home/yura/firstprogram/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_pubsub -- -j12 -l12
+[0.653s] Invoking command in '/home/yura/firstprogram/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/cpp_pubsub
+[0.659s] -- Install configuration: ""
+[0.659s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.659s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.659s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.659s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.660s] -- Installing: /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.661s] Invoked command in '/home/yura/firstprogram/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yura/ros2_ws/install/python_package:/home/yura/ros2_ws/install/python:/home/yura/ros2_ws/install/py_srvcli:/home/yura/ros2_ws/install/py_pubsub:/home/yura/ros2_ws/install/launch_testing_examples:/home/yura/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yura/ros2_ws/install/examples_rclpy_minimal_service:/home/yura/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yura/ros2_ws/install/examples_rclpy_minimal_client:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yura/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yura/ros2_ws/install/examples_rclpy_guard_conditions:/home/yura/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/cpp_pubsub

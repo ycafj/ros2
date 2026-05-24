@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/yura/firstprogram/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_srvcli -- -j12 -l12
+[0.058s] [ 50%] Built target client
+[0.059s] [100%] Built target server
+[0.070s] Invoked command in '/home/yura/firstprogram/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_srvcli -- -j12 -l12
+[0.071s] Invoking command in '/home/yura/firstprogram/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/cpp_srvcli
+[0.079s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/lib/cpp_srvcli/server
+[0.079s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/lib/cpp_srvcli/client
+[0.079s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[0.079s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[0.079s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[0.081s] -- Installing: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[0.081s] -- Up-to-date: /home/yura/firstprogram/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[0.098s] Invoked command in '/home/yura/firstprogram/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/cpp_srvcli

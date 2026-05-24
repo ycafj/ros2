@@ -1,0 +1,348 @@
+[0.012s] Invoking command in '/home/yura/firstprogram/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/tutorial_interfaces -- -j12 -l12
+[0.036s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.134s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.159s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.165s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.210s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.217s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.438s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.875s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.932s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.933s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.938s] -- Added test 'xmllint' to check XML markup files
+[0.939s] -- Configuring done (0.9s)
+[0.964s] -- Generating done (0.0s)
+[0.972s] -- Build files have been written to: /home/yura/firstprogram/build/tutorial_interfaces
+[1.002s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.002s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.010s] [  3%] Built target ament_cmake_python_copy_tutorial_interfaces
+[1.150s] [  3%] Built target tutorial_interfaces__rosidl_generator_type_description
+[1.160s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.167s] [  4%] Built target tutorial_interfaces__rs
+[1.169s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.190s] running egg_info
+[1.202s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.202s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.202s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.237s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.238s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.258s] [  6%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[1.442s] [  6%] Built target tutorial_interfaces__cpp
+[1.463s] [  7%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__description.c.o[0m
+[1.464s] [  9%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/coord__description.c.o[0m
+[1.464s] [ 10%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o[0m
+[1.464s] [ 13%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__description.c.o[0m
+[1.465s] [ 13%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[1.465s] [ 15%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[1.465s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[1.465s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[1.465s] [ 20%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[1.465s] [ 23%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/coord__type_support.c.o[0m
+[1.466s] [ 21%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/coord__functions.c.o[0m
+[1.467s] [ 24%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[1.531s] [ 26%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[1.558s] [ 26%] Built target tutorial_interfaces__rosidl_generator_c
+[1.568s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.568s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.572s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.572s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.572s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.572s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.763s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[1.764s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.765s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.770s] [ 41%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/coord__type_support.cpp.o[0m
+[1.791s] [ 44%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/coord__type_support.c.o[0m
+[1.791s] [ 44%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[1.792s] [ 46%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[1.793s] [ 47%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[1.840s] [ 49%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.861s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.861s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.861s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/coord__type_support.cpp.o[0m
+[1.867s] [ 55%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[1.887s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.917s] [ 56%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[1.926s] [ 58%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[1.928s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[1.928s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/coord__type_support.cpp.o[0m
+[1.930s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[1.940s] [ 64%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.942s] [ 66%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[1.964s] [ 66%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.974s] [ 67%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/coord__type_support.cpp.o[0m
+[2.042s] [ 69%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[2.062s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[2.122s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[2.128s] [ 73%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/coord__type_support_c.cpp.o[0m
+[2.222s] [ 75%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[2.254s] [ 76%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[2.324s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[2.424s] [ 78%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.508s] [ 78%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[2.646s] [ 80%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.681s] [ 81%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.682s] [ 81%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[2.732s] [ 81%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.748s] [ 81%] Built target tutorial_interfaces
+[2.762s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.058s] [ 83%] Built target tutorial_interfaces__py
+[3.080s] [ 84%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[3.080s] [ 86%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[3.080s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_coord_s.c.o[0m
+[3.080s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[3.199s] [ 90%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so[0m
+[3.232s] [ 90%] Built target tutorial_interfaces__rosidl_generator_py
+[3.250s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.253s] [ 95%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.254s] [ 95%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.325s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.325s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[3.351s] [ 98%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[3.352s] [ 98%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.364s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[3.390s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[3.400s] Invoked command in '/home/yura/firstprogram/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yura/firstprogram/build/tutorial_interfaces -- -j12 -l12
+[3.401s] Invoking command in '/home/yura/firstprogram/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/tutorial_interfaces
+[3.409s] -- Install configuration: ""
+[3.409s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[3.409s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[3.409s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[3.409s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Coord.json
+[3.409s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[3.409s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.409s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.409s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[3.409s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[3.409s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__description.c
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__type_support.h
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__type_support.c
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__struct.h
+[3.410s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__functions.c
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__functions.h
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[3.411s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/coord.h
+[3.411s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.411s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[3.411s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[3.412s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[3.412s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[3.412s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[3.412s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[3.412s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[3.412s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[3.412s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[3.412s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[3.412s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[3.412s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.412s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.413s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.413s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.413s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__rosidl_typesupport_fastrtps_c.h
+[3.413s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[3.413s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[3.413s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.413s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.413s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[3.413s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.413s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.413s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.413s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.413s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[3.414s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__type_support.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__struct.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__builder.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[3.414s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__traits.hpp
+[3.415s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.415s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/coord.hpp
+[3.415s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.415s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.415s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[3.415s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[3.415s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[3.415s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[3.415s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[3.415s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.415s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.416s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.416s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.416s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[3.416s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[3.416s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[3.416s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__rosidl_typesupport_fastrtps_cpp.hpp
+[3.416s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.416s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.416s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[3.416s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.416s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.417s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.417s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__type_support.c
+[3.417s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[3.417s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__rosidl_typesupport_introspection_c.h
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.417s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[3.417s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[3.417s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[3.418s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.418s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[3.418s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[3.418s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.418s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.418s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.418s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__type_support.cpp
+[3.418s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[3.418s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[3.418s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/coord__rosidl_typesupport_introspection_cpp.hpp
+[3.418s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[3.418s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[3.419s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.419s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.419s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[3.419s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.419s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.419s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.419s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[3.420s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.420s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[3.420s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[3.420s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[3.420s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.420s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.420s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.420s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.420s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[3.420s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.420s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[3.420s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_coord_s.c
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_coord.py
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+[3.421s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[3.421s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[3.422s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[3.422s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[3.422s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[3.422s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.452s] Listing '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+[3.452s] Compiling '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...
+[3.452s] Listing '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+[3.452s] Compiling '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...
+[3.452s] Compiling '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_coord.py'...
+[3.452s] Compiling '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...
+[3.452s] Compiling '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py'...
+[3.452s] Listing '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+[3.452s] Compiling '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...
+[3.452s] Compiling '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[3.455s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.456s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.456s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.456s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[3.456s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[3.456s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+[3.456s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[3.456s] -- Set non-toolchain portion of runtime path of "/home/yura/firstprogram/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[3.456s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/ament_index/resource_index/rust_packages/tutorial_interfaces
+[3.457s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust
+[3.457s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/Cargo.toml
+[3.457s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src
+[3.457s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg.rs
+[3.457s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg
+[3.457s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg/rmw.rs
+[3.457s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv.rs
+[3.457s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv
+[3.457s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv/rmw.rs
+[3.457s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/lib.rs
+[3.458s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/rust/build.rs
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[3.458s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Coord.idl
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[3.458s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/msg/Coord.msg
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[3.458s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[3.458s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[3.459s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[3.459s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[3.459s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[3.459s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[3.459s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[3.459s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[3.459s] -- Installing: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[3.460s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[3.460s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[3.460s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.460s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.460s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.461s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.462s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[3.463s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[3.463s] -- Up-to-date: /home/yura/firstprogram/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[3.463s] Invoked command in '/home/yura/firstprogram/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yura/firstprogram/build/tutorial_interfaces
