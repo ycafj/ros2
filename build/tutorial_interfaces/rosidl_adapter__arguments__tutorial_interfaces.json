@@ -1,0 +1,9 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/yura/firstprogram/src/tutorial_interfaces:msg/Num.msg",
+    "/home/yura/firstprogram/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/yura/firstprogram/src/tutorial_interfaces:msg/Coord.msg",
+    "/home/yura/firstprogram/src/tutorial_interfaces:srv/AddThreeInts.srv"
+  ]
+}

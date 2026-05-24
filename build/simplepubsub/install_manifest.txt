@@ -1,0 +1,17 @@
+/home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/talker
+/home/yura/firstprogram/install/simplepubsub/lib/simplepubsub/listener
+/home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/package_run_dependencies/simplepubsub
+/home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/parent_prefix_path/simplepubsub
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/ament_prefix_path.sh
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/ament_prefix_path.dsv
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/path.sh
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/environment/path.dsv
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.bash
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.sh
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.zsh
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/local_setup.dsv
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/package.dsv
+/home/yura/firstprogram/install/simplepubsub/share/ament_index/resource_index/packages/simplepubsub
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/cmake/simplepubsubConfig.cmake
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/cmake/simplepubsubConfig-version.cmake
+/home/yura/firstprogram/install/simplepubsub/share/simplepubsub/package.xml

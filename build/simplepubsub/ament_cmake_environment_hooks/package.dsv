@@ -1,0 +1,4 @@
+source;share/simplepubsub/local_setup.bash
+source;share/simplepubsub/local_setup.dsv
+source;share/simplepubsub/local_setup.sh
+source;share/simplepubsub/local_setup.zsh

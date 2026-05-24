@@ -1,0 +1,10 @@
+/home/yura/firstprogram/build/firstprog/CMakeFiles/uninstall.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/firstprog_uninstall.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/my_node.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/test.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/edit_cache.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/rebuild_cache.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/list_install_components.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/install.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/install/local.dir
+/home/yura/firstprogram/build/firstprog/CMakeFiles/install/strip.dir

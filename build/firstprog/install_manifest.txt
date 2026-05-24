@@ -1,0 +1,16 @@
+/home/yura/firstprogram/install/firstprog/lib/firstprog/my_node
+/home/yura/firstprogram/install/firstprog/share/ament_index/resource_index/package_run_dependencies/firstprog
+/home/yura/firstprogram/install/firstprog/share/ament_index/resource_index/parent_prefix_path/firstprog
+/home/yura/firstprogram/install/firstprog/share/firstprog/environment/ament_prefix_path.sh
+/home/yura/firstprogram/install/firstprog/share/firstprog/environment/ament_prefix_path.dsv
+/home/yura/firstprogram/install/firstprog/share/firstprog/environment/path.sh
+/home/yura/firstprogram/install/firstprog/share/firstprog/environment/path.dsv
+/home/yura/firstprogram/install/firstprog/share/firstprog/local_setup.bash
+/home/yura/firstprogram/install/firstprog/share/firstprog/local_setup.sh
+/home/yura/firstprogram/install/firstprog/share/firstprog/local_setup.zsh
+/home/yura/firstprogram/install/firstprog/share/firstprog/local_setup.dsv
+/home/yura/firstprogram/install/firstprog/share/firstprog/package.dsv
+/home/yura/firstprogram/install/firstprog/share/ament_index/resource_index/packages/firstprog
+/home/yura/firstprogram/install/firstprog/share/firstprog/cmake/firstprogConfig.cmake
+/home/yura/firstprogram/install/firstprog/share/firstprog/cmake/firstprogConfig-version.cmake
+/home/yura/firstprogram/install/firstprog/share/firstprog/package.xml

@@ -1,0 +1,11 @@
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/uninstall.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/simplepubsub_uninstall.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/talker.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/listener.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/test.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/edit_cache.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/rebuild_cache.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/list_install_components.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/install.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/install/local.dir
+/home/yura/firstprogram/build/simplepubsub/CMakeFiles/install/strip.dir
