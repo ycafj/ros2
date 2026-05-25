@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5a600f73b53c39e85efa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "custom_interfaces__py",
+					"jsonFile" : "directory-custom_interfaces__py-f3f92ec87264e611801b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yura/firstprogram/build/custom_interfaces/custom_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "custom_interfaces__rs",
+					"jsonFile" : "directory-custom_interfaces__rs-6a8c601d2e00e8ac3367.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yura/firstprogram/build/custom_interfaces/custom_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "custom_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_custom_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_custom_interfaces_egg-202d772bf1738c5f33d3.json",
+					"name" : "ament_cmake_python_build_custom_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_custom_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_custom_interfaces-1c0cb33ed47472eca321.json",
+					"name" : "ament_cmake_python_copy_custom_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces-f642290ec62c5662f8bb.json",
+					"name" : "custom_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__cpp-1a2bade1e8b4517321a7.json",
+					"name" : "custom_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "custom_interfaces__py::@aab5c72cba252fd92ed9",
+					"jsonFile" : "target-custom_interfaces__py-2edcdff00ac536880bc8.json",
+					"name" : "custom_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_generator_c-5f85c509a6e25c29428f.json",
+					"name" : "custom_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_generator_py-cdf8d165b53895c7f21a.json",
+					"name" : "custom_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_generator_type_description-62717d281d7af824e542.json",
+					"name" : "custom_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_typesupport_c-8d1592330e30fa01b4e5.json",
+					"name" : "custom_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_typesupport_cpp-ce0d6e7ac22ed4bee204.json",
+					"name" : "custom_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_typesupport_fastrtps_c-a0f12604c86d8283874b.json",
+					"name" : "custom_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_typesupport_fastrtps_cpp-421ae4856ed3cea683a7.json",
+					"name" : "custom_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_typesupport_introspection_c-6198a9174d68d86e4795.json",
+					"name" : "custom_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces__rosidl_typesupport_introspection_cpp-5ac6ba246a83b221b185.json",
+					"name" : "custom_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "custom_interfaces__rs::@395622694d7ee63ed7c6",
+					"jsonFile" : "target-custom_interfaces__rs-6d6d64c82cf1ffdbfde8.json",
+					"name" : "custom_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces_s__rosidl_typesupport_c-0d88443ff5707475137f.json",
+					"name" : "custom_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces_s__rosidl_typesupport_fastrtps_c-c194bdff6d66be3864c6.json",
+					"name" : "custom_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces_s__rosidl_typesupport_introspection_c-8497fe54d58dde857a24.json",
+					"name" : "custom_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interfaces_uninstall-22d028f3e855ab667172.json",
+					"name" : "custom_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8a5ef0a26069904e1694.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yura/firstprogram/build/custom_interfaces",
+		"source" : "/home/yura/firstprogram/src/custom_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

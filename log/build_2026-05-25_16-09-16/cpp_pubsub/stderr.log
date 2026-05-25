@@ -1,0 +1,19 @@
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+    9 | [01;31m[Kstring[m[K turtlename;
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kstdin[m[K
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlename[m[K’ does not name a type; did you mean ‘[01m[Ktypename[m[K’?
+   38 |   [01;31m[Kturtlename[m[K+="/teleport_absolute";
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Ktypename[m[K
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kteleport_[m[K’ does not name a type
+   39 |   [01;31m[Kteleport_[m[K = this->create_client<turtlesim::srv::TeleportAbsolute>(turtlename);
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::[01;32m[Ktopic_callback[m[K(custom_interfaces::msg::Coord_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlename[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlesim[m[K’?
+   32 |     [01;31m[Kturtlename[m[K  = "aboba";
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Kturtlesim[m[K
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

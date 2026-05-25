@@ -1,7 +1,7 @@
 /home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/uninstall.dir
 /home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir
-/home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/talker.dir
-/home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/listener.dir
+/home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/subscriber.dir
+/home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/publisher.dir
 /home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/test.dir
 /home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/edit_cache.dir
 /home/yura/firstprogram/build/cpp_pubsub/CMakeFiles/rebuild_cache.dir

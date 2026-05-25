@@ -1,0 +1,26 @@
+[ 50%] Built target publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o[0m
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::[01;32m[Ktopic_callback[m[K(custom_interfaces::msg::Coord_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+   32 |     [01;31m[Kstring[m[K turtlename= "aboba";
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:32:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/13/iosfwd:41[m[K,
+                 from [01m[K/usr/include/c++/13/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:2[m[K:
+[01m[K/usr/include/c++/13/bits/stringfwd.h:77:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’
+   77 |  basic_string<char>    [01;36m[Kstring[m[K;
+      |                        [01;36m[K^~~~~~[m[K
+
+In file included from [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:3[m[K:
+[01m[K/usr/include/c++/13/string:66:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::string[m[K’
+   66 |     using [01;36m[Kstring[m[K    = basic_string<char>;
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:35:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlename[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlesim[m[K’?
+   35 |      [01;31m[Kturtlename[m[K+="/teleport_absolute";
+      |      [01;31m[K^~~~~~~~~~[m[K
+      |      [32m[Kturtlesim[m[K
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,41 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:145 (add_library):
+  add_library cannot create ALIAS target
+  "custom_interfaces::custom_interfaces__rosidl_generator_c" because another
+  target with the same name already exists.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake:142 (add_library):
+  add_library cannot create ALIAS target
+  "custom_interfaces::custom_interfaces__rosidl_generator_cpp" because
+  another target with the same name already exists.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake:122 (add_library):
+  add_library cannot create ALIAS target
+  "custom_interfaces::custom_interfaces__rosidl_typesupport_introspection_c"
+  because another target with the same name already exists.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/cmake/rosidl_typesupport_introspection_cpp_generate_interfaces.cmake:111 (add_library):
+  add_library cannot create ALIAS target
+  "custom_interfaces::custom_interfaces__rosidl_typesupport_introspection_cpp"
+  because another target with the same name already exists.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:829: cmake_check_build_system] Error 1

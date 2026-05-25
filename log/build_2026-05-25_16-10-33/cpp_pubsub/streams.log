@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/yura/firstprogram/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/cpp_pubsub:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yura/firstprogram/install/turtlesim/lib:/home/yura/firstprogram/install/custom_interfaces/lib:/home/yura/firstprogram/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/home/yura/firstprogram/install/custom_interfaces/lib/python3.12/site-packages:/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_pubsub -- -j12 -l12
+[0.059s] [ 50%] Built target publisher
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o[0m
+[1.334s] [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::[01;32m[Ktopic_callback[m[K(custom_interfaces::msg::Coord_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.334s] [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+[1.335s]    32 |     [01;31m[Kstring[m[K turtlename= "aboba";
+[1.335s]       |     [01;31m[K^~~~~~[m[K
+[1.335s] [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:32:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.335s] In file included from [01m[K/usr/include/c++/13/iosfwd:41[m[K,
+[1.335s]                  from [01m[K/usr/include/c++/13/bits/shared_ptr.h:52[m[K,
+[1.335s]                  from [01m[K/usr/include/c++/13/memory:80[m[K,
+[1.335s]                  from [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:2[m[K:
+[1.335s] [01m[K/usr/include/c++/13/bits/stringfwd.h:77:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’
+[1.335s]    77 |  basic_string<char>    [01;36m[Kstring[m[K;
+[1.335s]       |                        [01;36m[K^~~~~~[m[K
+[1.335s] 
+[1.335s] In file included from [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:3[m[K:
+[1.336s] [01m[K/usr/include/c++/13/string:66:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::string[m[K’
+[1.336s]    66 |     using [01;36m[Kstring[m[K    = basic_string<char>;
+[1.336s]       |           [01;36m[K^~~~~~[m[K
+[1.339s] [01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:35:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlename[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlesim[m[K’?
+[1.339s]    35 |      [01;31m[Kturtlename[m[K+="/teleport_absolute";
+[1.339s]       |      [01;31m[K^~~~~~~~~~[m[K
+[1.339s]       |      [32m[Kturtlesim[m[K
+[2.699s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o] Error 1
+[2.699s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/subscriber.dir/all] Error 2
+[2.699s] gmake: *** [Makefile:146: all] Error 2
+[2.701s] Invoked command in '/home/yura/firstprogram/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/cpp_pubsub:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/cpp_srvcli:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yura/firstprogram/install/turtlesim/lib:/home/yura/firstprogram/install/custom_interfaces/lib:/home/yura/firstprogram/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/home/yura/firstprogram/install/custom_interfaces/lib/python3.12/site-packages:/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_pubsub -- -j12 -l12

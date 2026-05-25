@@ -5,7 +5,6 @@
 #include "custom_interfaces/msg/coord.hpp"
 
 using namespace std::chrono_literals;
-
 class MinimalPublisher : public rclcpp::Node
 {
 public:
@@ -15,12 +14,13 @@ public:
     publisher_ = this->create_publisher<custom_interfaces::msg::Coord>("topic", 10);
     auto timer_callback =
       [this]() -> void {
+        count_++;
         auto message = custom_interfaces::msg::Coord();
         message.x = (count_+2)%3+4;
-        message.y = (count_+3)%5+5;
+        message.y = (count_+3)%5+1;
         message.theta = (count_+1)%4;
-        count_++;
-        if(count_ >=100) count_=0;
+        message.name = "aboba"+std::to_string(count_%3);
+        if(count_ >=20) count_=0;
         RCLCPP_INFO(this->get_logger(), "Публікую координати: x:%f, y:%f, theta:%f", message.x,message.y,message.theta);
         this->publisher_->publish(message);
       };

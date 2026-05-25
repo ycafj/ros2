@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/yura/firstprogram/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yura/firstprogram/install/turtlesim/lib:/home/yura/firstprogram/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_pubsub -- -j12 -l12
+[0.027s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.178s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.208s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.217s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.382s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.450s] -- Configuring incomplete, errors occurred!
+[0.450s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.450s]   By not providing "Findros_tutorials.cmake" in CMAKE_MODULE_PATH this
+[0.450s]   project has asked CMake to find a package configuration file provided by
+[0.450s]   "ros_tutorials", but CMake did not find one.
+[0.451s] 
+[0.451s]   Could not find a package configuration file provided by "ros_tutorials"
+[0.451s]   with any of the following names:
+[0.451s] 
+[0.451s]     ros_tutorialsConfig.cmake
+[0.451s]     ros_tutorials-config.cmake
+[0.451s] 
+[0.451s]   Add the installation prefix of "ros_tutorials" to CMAKE_PREFIX_PATH or set
+[0.451s]   "ros_tutorials_DIR" to a directory containing one of the above files.  If
+[0.451s]   "ros_tutorials" provides a separate development package or SDK, be sure it
+[0.451s]   has been installed.
+[0.451s] 
+[0.451s] [0m
+[0.454s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.456s] Invoked command in '/home/yura/firstprogram/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yura/firstprogram/install/turtlesim/lib:/home/yura/firstprogram/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/yura/firstprogram/build/cpp_pubsub -- -j12 -l12

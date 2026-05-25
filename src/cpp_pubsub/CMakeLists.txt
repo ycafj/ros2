@@ -18,8 +18,8 @@ ament_target_dependencies(subscriber rclcpp custom_interfaces turtlesim)
 add_executable(publisher src/minimal_publisher.cpp)
 ament_target_dependencies(publisher rclcpp custom_interfaces )
 install(TARGETS
-  minimal_subscriber
-  minimal_publisher
+  subscriber
+  publisher
   DESTINATION lib/${PROJECT_NAME}
 )
 if(BUILD_TESTING)

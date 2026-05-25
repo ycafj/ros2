@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.000468] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000564] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000625] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict({'custom_interfaces': '/home/yura/firstprogram/install/custom_interfaces', 'turtlesim': '/home/yura/firstprogram/install/turtlesim'})}
+[0.000652] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.004659] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.007607] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.007908] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.008362] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yura/firstprogram/build/custom_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/yura/firstprogram/build/custom_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1dbdac77-858c-4dd1-b75b-7c32c4081775', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yura', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib:/home/yura/firstprogram/install/turtlesim/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yura', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/yura/firstprogram/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2326', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/yura/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3150', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yura/firstprogram/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yura', 'JOURNAL_STREAM': '9:14304', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yura', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/yura/miniconda3/condabin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Aspire-A315-59:@/tmp/.ICE-unix/2273,unix/Aspire-A315-59:/tmp/.ICE-unix/2273', 'INVOCATION_ID': '2d5beb98522f4da3a9c2201a2ee23e69', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LNH4P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '14', 'AMENT_PREFIX_PATH': '/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/yura/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9606ee3b-5d78-42e6-b3c0-03a06e802925', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yura/firstprogram/build/custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.011070] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.011637] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.011719] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yura/firstprogram/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/home/yura/firstprogram/build/turtlesim', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1dbdac77-858c-4dd1-b75b-7c32c4081775', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yura', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib:/home/yura/firstprogram/install/turtlesim/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yura', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/yura/firstprogram/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2326', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/yura/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3150', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yura/firstprogram/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yura', 'JOURNAL_STREAM': '9:14304', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yura', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/yura/miniconda3/condabin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Aspire-A315-59:@/tmp/.ICE-unix/2273,unix/Aspire-A315-59:/tmp/.ICE-unix/2273', 'INVOCATION_ID': '2d5beb98522f4da3a9c2201a2ee23e69', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LNH4P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '14', 'AMENT_PREFIX_PATH': '/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/yura/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9606ee3b-5d78-42e6-b3c0-03a06e802925', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yura/firstprogram/build/turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.030491] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.058173] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__rs\n'}
+[0.058364] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__rosidl_generator_type_description\n'}
+[0.065068] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.077374] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[0.083533] (turtlesim) StdoutLine: {'line': b'[ 25%] Built target turtlesim__rosidl_generator_c\n'}
+[0.099396] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.099581] (turtlesim) StdoutLine: {'line': b'[ 43%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.099815] (-) TimerEvent: {}
+[0.106797] (turtlesim) StdoutLine: {'line': b'[ 52%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.108614] (turtlesim) StdoutLine: {'line': b'[ 60%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.108954] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.109053] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.127328] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim\n'}
+[0.128595] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target draw_square\n'}
+[0.132462] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtle_teleop_key\n'}
+[0.133224] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target mimic\n'}
+[0.133366] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target turtlesim_node\n'}
+[0.142593] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__py\n'}
+[0.165389] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_generator_py\n'}
+[0.185944] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_s__rosidl_typesupport_fastrtps_c\n'}
+[0.186113] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_s__rosidl_typesupport_c\n'}
+[0.186203] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_s__rosidl_typesupport_introspection_c\n'}
+[0.199941] (-) TimerEvent: {}
+[0.213508] (custom_interfaces) StdoutLine: {'line': b'-- Found custom_interfaces: 0.0.0 (/home/yura/firstprogram/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[0.213671] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.215462] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.228839] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.238443] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.240570] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.240798] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.240912] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.258576] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.274684] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.275018] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.293297] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.300042] (-) TimerEvent: {}
+[0.304175] (turtlesim) CommandEnded: {'returncode': 0}
+[0.304795] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.312922] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yura/firstprogram/build/turtlesim'], 'cwd': '/home/yura/firstprogram/build/turtlesim', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '1dbdac77-858c-4dd1-b75b-7c32c4081775', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yura', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib:/home/yura/firstprogram/install/turtlesim/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yura', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/yura/firstprogram/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2037', 'SYSTEMD_EXEC_PID': '2326', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', '_CONDA_ROOT': '/home/yura/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3150', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yura/firstprogram/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yura', 'JOURNAL_STREAM': '9:14304', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yura', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/yura/miniconda3/condabin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Aspire-A315-59:@/tmp/.ICE-unix/2273,unix/Aspire-A315-59:/tmp/.ICE-unix/2273', 'INVOCATION_ID': '2d5beb98522f4da3a9c2201a2ee23e69', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LNH4P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '14', 'AMENT_PREFIX_PATH': '/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/yura/miniconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9606ee3b-5d78-42e6-b3c0-03a06e802925', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yura/firstprogram/build/turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/yura/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yura/firstprogram/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yura/firstprogram/install/simplepubsub:/home/yura/firstprogram/install/tutorial_interfaces:/home/yura/firstprogram/install/turtlesim:/home/yura/firstprogram/install/firstprog:/home/yura/firstprogram/install/custom_interfaces:/home/yura/firstprogram/install/cpp_srvcli:/home/yura/firstprogram/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.318352] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.318548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.318630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/action/RotateAbsolute.json\n'}
+[0.318705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Color.json\n'}
+[0.318779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Pose.json\n'}
+[0.318851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Kill.json\n'}
+[0.318923] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/SetPen.json\n'}
+[0.318994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Spawn.json\n'}
+[0.319064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.json\n'}
+[0.319134] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportRelative.json\n'}
+[0.319204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.319545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.319638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[0.319717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.319791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__description.c\n'}
+[0.319865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[0.319939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[0.320031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[0.320278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[0.320394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[0.320484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.320560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[0.320633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[0.320705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__description.c\n'}
+[0.320777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.320851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[0.320945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.321158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[0.321230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.321302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[0.321378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.321458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.321536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[0.321614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.321689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[0.321766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.321839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.321910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__description.c\n'}
+[0.321981] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.322054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.322125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.322198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[0.322269] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.322342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.322421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.322526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.322602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__description.c\n'}
+[0.322676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.322752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__description.c\n'}
+[0.322824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.322987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.323056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.323126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.323194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.323262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.323331] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.323399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__description.c\n'}
+[0.323485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.323556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.323626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.323695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__description.c\n'}
+[0.323764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[0.323840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[0.323909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[0.323978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[0.324048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.324117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.324186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.324256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.324326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.324396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.324480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__description.c\n'}
+[0.324553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.324622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[0.324691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.324764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.324832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.324900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.324968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.325035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.325104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.325172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.325380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.325455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325710] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.325854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.325885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.325916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.325946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.325977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.326007] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.326037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[0.326076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[0.326106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.326137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.326166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.326195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.326226] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.326256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.326285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[0.326316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.326346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[0.326376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.326406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.326447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.326479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[0.326510] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.326540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[0.326569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.326599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.326630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[0.326659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.326689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.326719] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.326749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.326779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.326809] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.326839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.326870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.326900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[0.326929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[0.326959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.326989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.327018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.327048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[0.327078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[0.327107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[0.327136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[0.327167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.327197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.327225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.327256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.327285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[0.327315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.327344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.327373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[0.327402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.327442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.327472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.327502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.327530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.327559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.327650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.327679] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.327708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.327883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.327912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[0.327942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.327971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.327999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.328029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.328057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.328086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[0.328116] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.328145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.328175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.328208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.328237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.328266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.328296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.328325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.328356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.328386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.328459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.328490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.328521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.328550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.328579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.328610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.328640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.328669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.328698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.328728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.328757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.328787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.328816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.328844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.328873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.328900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.328958] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.328988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.329016] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.329046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.329076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.329167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.329227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.329256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.329315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.329344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.329401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.329437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.329467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.329497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.329528] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.329557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.329586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.329616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info\n'}
+[0.329645] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/PKG-INFO\n'}
+[0.329675] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/dependency_links.txt\n'}
+[0.329704] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/SOURCES.txt\n'}
+[0.329734] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/top_level.txt\n'}
+[0.329763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim\n'}
+[0.329795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg\n'}
+[0.329825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose.py\n'}
+[0.329855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color.py\n'}
+[0.329884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color_s.c\n'}
+[0.329914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/__init__.py\n'}
+[0.329945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose_s.c\n'}
+[0.329975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/__init__.py\n'}
+[0.330006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[0.330036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.330068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.330099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so\n'}
+[0.330130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so\n'}
+[0.330161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv\n'}
+[0.330190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.330221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen.py\n'}
+[0.330255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.330286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill.py\n'}
+[0.330316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.330346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.330377] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/__init__.py\n'}
+[0.330413] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn.py\n'}
+[0.330448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.330478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill_s.c\n'}
+[0.330509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.330538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.330569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action\n'}
+[0.330600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.330631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/__init__.py\n'}
+[0.330660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.350694] (turtlesim) StdoutLine: {'line': b"Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim'...\n"}
+[0.350856] (turtlesim) StdoutLine: {'line': b"Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/action'...\n"}
+[0.350933] (turtlesim) StdoutLine: {'line': b"Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg'...\n"}
+[0.351005] (turtlesim) StdoutLine: {'line': b"Listing '/home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv'...\n"}
+[0.354467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.354624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so\n'}
+[0.354785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so\n'}
+[0.355009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[0.355098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/rust_packages/turtlesim\n'}
+[0.355175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust\n'}
+[0.355249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/Cargo.toml\n'}
+[0.355435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src\n'}
+[0.355525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/msg.rs\n'}
+[0.355604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/msg\n'}
+[0.355835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/msg/rmw.rs\n'}
+[0.355946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/srv.rs\n'}
+[0.356024] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/action.rs\n'}
+[0.356131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/srv\n'}
+[0.356227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/srv/rmw.rs\n'}
+[0.356300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/action\n'}
+[0.356373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/action/rmw.rs\n'}
+[0.356522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/src/lib.rs\n'}
+[0.356624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/rust/build.rs\n'}
+[0.356696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.356768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.356872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.356940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.357008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.357075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.357142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.357209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.357279] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.357347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.357419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.357506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.357574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.357641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.357709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.357794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.357902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.357974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.358047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.358137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.358238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images\n'}
+[0.358347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/jazzy.png\n'}
+[0.358469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[0.358580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[0.358683] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.358756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[0.358828] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.358900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/iron.png\n'}
+[0.358971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.359093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.359165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.359237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.359308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/launch\n'}
+[0.359380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.359540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.359617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.359689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.359762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.359834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.359906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.359977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.360049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.360120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.360191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.360262] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/yura/firstprogram/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.360333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.360736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.360814] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.360964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.361037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.361109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.361180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.361252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.361324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.361420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.361502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.361576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.361647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.361717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.361791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.361864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.361937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[0.362008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.362078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.362149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.362220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.362291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.362363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.362488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.362565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.362637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.362708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.362779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/yura/firstprogram/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.362849] (turtlesim) CommandEnded: {'returncode': 0}
+[0.379196] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[0.400251] (-) TimerEvent: {}
+[0.457160] (custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[0.457361] (custom_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.457648] (custom_interfaces) StderrLine: {'line': b'  custom_interfaces --arguments-file\n'}
+[0.457736] (custom_interfaces) StderrLine: {'line': b'  /home/yura/firstprogram/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json\n'}
+[0.457775] (custom_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.457815] (custom_interfaces) StderrLine: {'line': b'  /home/yura/firstprogram/build/custom_interfaces/rosidl_adapter/custom_interfaces\n'}
+[0.457850] (custom_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.457882] (custom_interfaces) StderrLine: {'line': b'  /home/yura/firstprogram/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)\n'}
+[0.457915] (custom_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.457946] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.457977] (custom_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.458009] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.458040] (custom_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[0.458072] (custom_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[0.458102] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.458133] (custom_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.458163] (custom_interfaces) StderrLine: {'line': b'               ^^^^^^\n'}
+[0.458196] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.458229] (custom_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.458264] (custom_interfaces) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[0.458300] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.458333] (custom_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.458362] (custom_interfaces) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[0.458391] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.458443] (custom_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.458480] (custom_interfaces) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.458510] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string\n'}
+[0.458539] (custom_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.458568] (custom_interfaces) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.458597] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__\n'}
+[0.458626] (custom_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.458654] (custom_interfaces) StderrLine: {'line': b'                       ^^^^^^^^^\n'}
+[0.458683] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__\n'}
+[0.458712] (custom_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.458741] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.458772] (custom_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'coord' is an invalid message\n"}
+[0.458802] (custom_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.458831] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.458861] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.458891] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[0.458921] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[0.458952] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.458982] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.459012] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.461554] (custom_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.463036] (custom_interfaces) CommandEnded: {'returncode': 2}
+[0.466555] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 2}
+[0.476987] (cpp_pubsub) JobSkipped: {'identifier': 'cpp_pubsub'}
+[0.477025] (-) EventReactorShutdown: {}
