@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/minimal_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable publisher[0m
+[ 75%] Built target publisher

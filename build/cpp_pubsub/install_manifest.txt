@@ -1,5 +1,5 @@
-/home/yura/firstprogram/install/cpp_pubsub/lib/cpp_pubsub/talker
-/home/yura/firstprogram/install/cpp_pubsub/lib/cpp_pubsub/listener
+/home/yura/firstprogram/install/cpp_pubsub/lib/cpp_pubsub/subscriber
+/home/yura/firstprogram/install/cpp_pubsub/lib/cpp_pubsub/publisher
 /home/yura/firstprogram/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
 /home/yura/firstprogram/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
 /home/yura/firstprogram/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh

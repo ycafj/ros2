@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/yura/firstprogram/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yura/firstprogram/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/yura/firstprogram/install/custom_interfaces
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.109s] -- The CXX compiler identification is GNU 13.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.499s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.499s]   By not providing "Findcustom_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.500s]   project has asked CMake to find a package configuration file provided by
+[0.500s]   "custom_interfaces", but CMake did not find one.
+[0.500s] 
+[0.500s]   Could not find a package configuration file provided by "custom_interfaces"
+[0.500s]   with any of the following names:
+[0.500s] 
+[0.500s]     custom_interfacesConfig.cmake
+[0.500s]     custom_interfaces-config.cmake
+[0.500s] 
+[0.500s]   Add the installation prefix of "custom_interfaces" to CMAKE_PREFIX_PATH or
+[0.500s]   set "custom_interfaces_DIR" to a directory containing one of the above
+[0.500s]   files.  If "custom_interfaces" provides a separate development package or
+[0.500s]   SDK, be sure it has been installed.
+[0.500s] 
+[0.500s] [0m
+[0.500s] -- Configuring incomplete, errors occurred!
+[0.503s] Invoked command in '/home/yura/firstprogram/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yura/firstprogram/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/yura/firstprogram/install/custom_interfaces

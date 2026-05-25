@@ -1,0 +1,8 @@
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::[01;32m[Ktopic_callback[m[K(custom_interfaces::msg::Coord_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:28:21:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   28 |     auto param = std[01;31m[K:[m[Kmake_shared<turtlesim::srv::Spawn::Request>();
+      |                     [01;31m[K^[m[K
+      |                     [32m[K::[m[K
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

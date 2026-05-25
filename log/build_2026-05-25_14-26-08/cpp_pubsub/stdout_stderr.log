@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o[0m
+[ 75%] Built target publisher
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:44:11:[m[K [01;31m[Kerror: [m[K‘[01m[KSpawn[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+   44 |   rclcpp::[01;31m[KSpawn[m[K<turtlesim::srv::Spawn>::SharedPtr spawn_;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::[01;32m[KMinimalSubscriber[m[K()[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn_[m[K’ was not declared in this scope
+   16 |     [01;31m[Kspawn_[m[K = this->spawn<turtlesim::srv::Spawn>("spawn");
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:16:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[Kspawn[m[K’
+   16 |    spawn_ = this->[01;31m[Kspawn[m[K<turtlesim::srv::Spawn>("spawn");
+      |                   [01;31m[K^~~~~[m[K
+
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:16:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   16 | tlesim::srv::Spawn[01;31m[K>[m[K("spawn");
+      |                   [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

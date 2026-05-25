@@ -198,78 +198,78 @@ cpp_pubsub_uninstall/fast:
 .PHONY : cpp_pubsub_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named talker
+# Target rules for targets named subscriber
 
 # Build rule for target.
-talker: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 talker
-.PHONY : talker
+subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 subscriber
+.PHONY : subscriber
 
 # fast build rule for target.
-talker/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-.PHONY : talker/fast
+subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
 
 #=============================================================================
-# Target rules for targets named listener
+# Target rules for targets named publisher
 
 # Build rule for target.
-listener: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 listener
-.PHONY : listener
+publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publisher
+.PHONY : publisher
 
 # fast build rule for target.
-listener/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-.PHONY : listener/fast
+publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
 
-src/publisher_lambda_function.o: src/publisher_lambda_function.cpp.o
-.PHONY : src/publisher_lambda_function.o
-
-# target to build an object file
-src/publisher_lambda_function.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o
-.PHONY : src/publisher_lambda_function.cpp.o
-
-src/publisher_lambda_function.i: src/publisher_lambda_function.cpp.i
-.PHONY : src/publisher_lambda_function.i
-
-# target to preprocess a source file
-src/publisher_lambda_function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.i
-.PHONY : src/publisher_lambda_function.cpp.i
-
-src/publisher_lambda_function.s: src/publisher_lambda_function.cpp.s
-.PHONY : src/publisher_lambda_function.s
-
-# target to generate assembly for a file
-src/publisher_lambda_function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.s
-.PHONY : src/publisher_lambda_function.cpp.s
-
-src/subscriber_lambda_function.o: src/subscriber_lambda_function.cpp.o
-.PHONY : src/subscriber_lambda_function.o
+src/minimal_publisher.o: src/minimal_publisher.cpp.o
+.PHONY : src/minimal_publisher.o
 
 # target to build an object file
-src/subscriber_lambda_function.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o
-.PHONY : src/subscriber_lambda_function.cpp.o
+src/minimal_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/minimal_publisher.cpp.o
+.PHONY : src/minimal_publisher.cpp.o
 
-src/subscriber_lambda_function.i: src/subscriber_lambda_function.cpp.i
-.PHONY : src/subscriber_lambda_function.i
+src/minimal_publisher.i: src/minimal_publisher.cpp.i
+.PHONY : src/minimal_publisher.i
 
 # target to preprocess a source file
-src/subscriber_lambda_function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.i
-.PHONY : src/subscriber_lambda_function.cpp.i
+src/minimal_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/minimal_publisher.cpp.i
+.PHONY : src/minimal_publisher.cpp.i
 
-src/subscriber_lambda_function.s: src/subscriber_lambda_function.cpp.s
-.PHONY : src/subscriber_lambda_function.s
+src/minimal_publisher.s: src/minimal_publisher.cpp.s
+.PHONY : src/minimal_publisher.s
 
 # target to generate assembly for a file
-src/subscriber_lambda_function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.s
-.PHONY : src/subscriber_lambda_function.cpp.s
+src/minimal_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/minimal_publisher.cpp.s
+.PHONY : src/minimal_publisher.cpp.s
+
+src/minimal_subscriber.o: src/minimal_subscriber.cpp.o
+.PHONY : src/minimal_subscriber.o
+
+# target to build an object file
+src/minimal_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o
+.PHONY : src/minimal_subscriber.cpp.o
+
+src/minimal_subscriber.i: src/minimal_subscriber.cpp.i
+.PHONY : src/minimal_subscriber.i
+
+# target to preprocess a source file
+src/minimal_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.i
+.PHONY : src/minimal_subscriber.cpp.i
+
+src/minimal_subscriber.s: src/minimal_subscriber.cpp.s
+.PHONY : src/minimal_subscriber.s
+
+# target to generate assembly for a file
+src/minimal_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.s
+.PHONY : src/minimal_subscriber.cpp.s
 
 # Help Target
 help:
@@ -286,14 +286,14 @@ help:
 	@echo "... test"
 	@echo "... cpp_pubsub_uninstall"
 	@echo "... uninstall"
-	@echo "... listener"
-	@echo "... talker"
-	@echo "... src/publisher_lambda_function.o"
-	@echo "... src/publisher_lambda_function.i"
-	@echo "... src/publisher_lambda_function.s"
-	@echo "... src/subscriber_lambda_function.o"
-	@echo "... src/subscriber_lambda_function.i"
-	@echo "... src/subscriber_lambda_function.s"
+	@echo "... publisher"
+	@echo "... subscriber"
+	@echo "... src/minimal_publisher.o"
+	@echo "... src/minimal_publisher.i"
+	@echo "... src/minimal_publisher.s"
+	@echo "... src/minimal_subscriber.o"
+	@echo "... src/minimal_subscriber.i"
+	@echo "... src/minimal_subscriber.s"
 .PHONY : help
 
 

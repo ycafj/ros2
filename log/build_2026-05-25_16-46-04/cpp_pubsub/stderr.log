@@ -1,0 +1,13 @@
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::[01;32m[KMinimalSubscriber[m[K()[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:14:24:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalSubscriber[m[K’ does not have any field named ‘[01m[Kturtlenum[m[K’
+   14 | Node("subscriber"),[01;31m[Kturtlenum[m[K()
+      |                    [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::[01;32m[Ktopic_callback[m[K(custom_interfaces::msg::Coord_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yura/firstprogram/src/cpp_pubsub/src/minimal_subscriber.cpp:29:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlenum[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlesim[m[K’?
+   29 |     if([01;31m[Kturtlenum[m[K<4){
+      |        [01;31m[K^~~~~~~~~[m[K
+      |        [32m[Kturtlesim[m[K
+gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/minimal_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
