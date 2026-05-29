@@ -1,8 +1,9 @@
 #include <chrono>
 #include <memory>
-
+#include <map>
 #include "rclcpp/rclcpp.hpp"
 #include "custom_interfaces/msg/coord.hpp"
+#include "custom_interfaces/srv/calculate.hpp"
 
 using namespace std::chrono_literals;
 class MinimalPublisher : public rclcpp::Node
@@ -32,7 +33,22 @@ private:
   rclcpp::Publisher<custom_interfaces::msg::Coord>::SharedPtr publisher_;
   size_t count_;
 };
-
+/*void calculate(const std::shared_ptr<custom_interfaces::srv::Calculate::Request> request, std::shared_ptr<custom_interfaces::srv::Response> response)
+{
+  std::map<int,int> coord_Y;
+  for(int i=0;i<request->turtles.size();i++){
+    coord_Y[i] = request->turtles[i].y;
+  }
+  int maxY=0;
+  for(int i=0;i<request->turtles.size();i++){
+    if( request->turtles[i].y>maxY)maxY = request->turtles[i].y;
+  }
+  
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\nx: %f y: %f name: %s",request->turtles, request->b);
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
+}
+}
+*/
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
