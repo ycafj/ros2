@@ -11,23 +11,24 @@ class MinimalSubscriber : public rclcpp::Node
 {
 public:
   MinimalSubscriber()
-  : Node("subscriber"),turtlenum_()
+  : Node("subscriber"),turtlenum_(1)
   {
     spawn_ = this->create_client<turtlesim::srv::Spawn>("spawn");
-    
     subscription_ = this->create_subscription<custom_interfaces::msg::Coord>(
       "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, std::placeholders::_1));
+   
   }
   void topic_callback(const custom_interfaces::msg::Coord::SharedPtr msg)
   {
     RCLCPP_INFO(this->get_logger(), "Отримано координати: x:%f, y:%f, theta:%f", msg->x, msg->y, msg->theta);
+    teleport_ = this->create_client<turtlesim::srv::TeleportAbsolute>(msg->name+"/teleport_absolute");
     auto request = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
     request->x = msg->x;
     request->y = msg->y;
     request->theta = msg->theta;
     
-    if(turtlenum_<4){
-      turtlenum_++;
+    if(turtlenum_<=3){
+      ++turtlenum_;
       auto param = std::make_shared<turtlesim::srv::Spawn::Request>();
       param->x = msg->x;
       param->y = msg->y;
@@ -36,8 +37,8 @@ public:
       spawn_->async_send_request(param);
     }
     RCLCPP_INFO(this->get_logger(), "Відправляємо запит на телепортацію...");
-    teleport_ = this->create_client<turtlesim::srv::TeleportAbsolute>(msg->name+"/teleport_absolute");
     teleport_->async_send_request(request);
+    RCLCPP_INFO(this->get_logger(), "Черепаху успішно телепортовано");
   }
  
 private:

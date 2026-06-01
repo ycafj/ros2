@@ -14,7 +14,7 @@ find_package(rclcpp REQUIRED)
 find_package(custom_interfaces REQUIRED)
 find_package(turtlesim REQUIRED)
 add_executable(subscriber src/minimal_subscriber.cpp)
-ament_target_dependencies(subscriber rclcpp custom_interfaces turtlesim)
+ament_target_dependencies(subscriber rclcpp custom_interfaces turtlesim )
 add_executable(publisher src/minimal_publisher.cpp)
 ament_target_dependencies(publisher rclcpp custom_interfaces )
 install(TARGETS

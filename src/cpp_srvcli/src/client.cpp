@@ -10,27 +10,22 @@ using namespace std::chrono_literals;
 int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);
-
+  if (argc != 13) {
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), 
+                "Використання: client x1 y1 th1 name1 x2 y2 th2 name2 x3 y3 th3 name3");
+    return 1;
+  }
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("calculate_client");
   rclcpp::Client<custom_interfaces::srv::Calculate>::SharedPtr client =
     node->create_client<custom_interfaces::srv::Calculate>("calculate");
 
   auto request = std::make_shared<custom_interfaces::srv::Calculate::Request>();
-    request->turtles[0].x = std::stof(argv[1]);
-    request->turtles[0].y = std::stof(argv[2]);
-    request->turtles[0].theta = std::stof(argv[3]);
-    request->turtles[0].name = argv[4]; 
-
-    request->turtles[1].x = std::stof(argv[5]);
-    request->turtles[1].y = std::stof(argv[6]);
-    request->turtles[1].theta = std::stof(argv[7]);
-    request->turtles[1].name = argv[8];
-
-    request->turtles[2].x = std::stof(argv[9]);
-    request->turtles[2].y = std::stof(argv[10]);
-    request->turtles[2].theta = std::stof(argv[11]);
-    request->turtles[2].name = argv[12];
-
+  for(int i =0;i<3;i++){
+    request->turtles[i].x = std::stof(argv[1+(i*4)]);
+    request->turtles[i].y = std::stof(argv[2+(i*4)]);
+    request->turtles[i].theta = std::stof(argv[3+(i*4)]);
+    request->turtles[i].name = argv[4+(i*4)]; 
+  }
   while (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
       RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
@@ -46,7 +41,7 @@ int main(int argc, char **argv)
   {
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Top turtle: %s", result.get()->name.c_str());
   } else {
-    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_two_ints");
+    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service calculate");
   }
 
   rclcpp::shutdown();
