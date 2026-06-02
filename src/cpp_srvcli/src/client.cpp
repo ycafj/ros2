@@ -10,9 +10,9 @@ using namespace std::chrono_literals;
 int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);
-  if (argc != 13) {
+  if (argc != 4) {
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), 
-                "Використання: client x1 y1 th1 name1 x2 y2 th2 name2 x3 y3 th3 name3");
+                "Використання: client name1 name2 name3");
     return 1;
   }
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("calculate_client");
@@ -21,10 +21,8 @@ int main(int argc, char **argv)
 
   auto request = std::make_shared<custom_interfaces::srv::Calculate::Request>();
   for(int i =0;i<3;i++){
-    request->turtles[i].x = std::stof(argv[1+(i*4)]);
-    request->turtles[i].y = std::stof(argv[2+(i*4)]);
-    request->turtles[i].theta = std::stof(argv[3+(i*4)]);
-    request->turtles[i].name = argv[4+(i*4)]; 
+    request->turtles[i] = argv[i+1]; 
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Got %s",request->turtles[i].c_str());
   }
   while (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
