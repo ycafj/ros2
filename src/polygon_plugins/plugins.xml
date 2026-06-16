@@ -1,5 +1,0 @@
-<library path="polygon_plugins">
-  <class type="polygon_plugins::Length" base_class_type="polygon_base::RegularPolygon">
-    <description>This is a length plugin.</description>
-  </class>
-</library>
