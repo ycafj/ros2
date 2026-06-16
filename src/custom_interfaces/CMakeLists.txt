@@ -13,6 +13,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Coord.msg"
   "srv/Calculate.srv"
+  "srv/Angle.srv"
 )
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
