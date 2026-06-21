@@ -8,19 +8,30 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclcpp_components REQUIRED)
 find_package(custom_interfaces REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(polygon_base REQUIRED)
+add_library(server_angle SHARED src/angle_server.cpp)
+ament_target_dependencies(server_angle rclcpp custom_interfaces turtlesim pluginlib polygon_base rclcpp_components)
+rclcpp_components_register_node(
+  server_angle
+  PLUGIN "angle_srvcli::AngleServer"
+  EXECUTABLE angle_server
+)
+install(TARGETS
+  server_angle
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+  )
 
-add_executable(angle_server src/angle_server.cpp)
-ament_target_dependencies(angle_server rclcpp custom_interfaces turtlesim pluginlib polygon_base)
 add_executable(angle_client src/angle_client.cpp)
 ament_target_dependencies(angle_client rclcpp custom_interfaces)
 
 
 install(TARGETS
-    angle_server
     angle_client
   DESTINATION lib/${PROJECT_NAME})
 

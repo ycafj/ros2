@@ -1,4 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
+#include "rclcpp_components/register_node_macro.hpp"
 #include "custom_interfaces/srv/angle.hpp"
 #include "turtlesim/msg/pose.hpp"
 #include <memory>
@@ -8,11 +9,11 @@
 #include <polygon_base/regular_polygon.hpp>
 
 #define PI 3.14159265
-
+namespace angle_srvcli{
 class AngleServer : public rclcpp::Node
 {
   public:
-    AngleServer() : Node("angle_server")
+    AngleServer(const rclcpp::NodeOptions & options) : Node("angle_server",options)
     {
       service_ = this->create_service<custom_interfaces::srv::Angle>("angle",std::bind(&AngleServer::calculate, this, std::placeholders::_1, std::placeholders::_2));
       RCLCPP_INFO(this->get_logger(), "Ready to calculate angle");
@@ -75,9 +76,5 @@ class AngleServer : public rclcpp::Node
       response->angle,response->angle*57.29, turtle1.c_str(),turtle2.c_str());
     }
 };
-int main(int argc, char **argv)
-{
-  rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<AngleServer>());
-  rclcpp::shutdown();
 }
+RCLCPP_COMPONENTS_REGISTER_NODE(angle_srvcli::AngleServer)
