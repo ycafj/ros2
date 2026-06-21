@@ -41,7 +41,6 @@ ament_target_dependencies(action_server
 rclcpp_components_register_node(action_server 
   PLUGIN "custom_action_cpp::HuntingActionServer" 
   EXECUTABLE hunting_action_server)
-
 install(TARGETS
   action_server
   ARCHIVE DESTINATION lib

@@ -21,6 +21,8 @@ public:
   explicit HuntingActionClient(const rclcpp::NodeOptions & options)
   : Node("hunting_action_client", options)
   {
+    this->declare_parameter("turget_turtle","aboba1");
+    this->declare_parameter("catches_turtle","aboba2");
     this->client_ptr_ = rclcpp_action::create_client<Hunting>(
       this,
       "hunting");
@@ -43,8 +45,8 @@ public:
     }
 
     auto goal_msg = Hunting::Goal();
-    goal_msg.target_turtle = "aboba1";
-    goal_msg.catches_turtle = "aboba2";
+    goal_msg.target_turtle = this->get_parameter("turget_turtle").as_string();
+    goal_msg.catches_turtle = this->get_parameter("catches_turtle").as_string();
 
     RCLCPP_INFO(this->get_logger(), "Sending goal");
 
